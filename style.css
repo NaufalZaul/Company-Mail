@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/*li*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+/*h3*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+/*subject*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*from email*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
+/*massage*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/*logo*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Fredoka+One&display=swap');
+/*logo2*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    padding: 3px;
+}
+
+button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+}
+
+.logo {
+    display: flex;
+    padding: 0 3em;
+}
+
+.logo i {
+    width: 35%;
+    font-size: 25px;
+    text-align: center;
+    margin: .2em .5em;
+}
+
+.logo h1 {
+    font-size: 3em;
+    font-family: 'cinzel', serif;
+}
+
+.logout {
+    margin-right: 1em;
+    align-self: center;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.logout a {
+    color: #fff;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto 1.5em;
+}
+
+.nav-bar ul {
+    display: flex;
+    padding: 0 15px;
+    height: 50px;
+}
+
+.nav-bar li {
+    font-size: 18px;
+    margin: .5em;
+    list-style: none;
+    border-radius: 20px;
+    padding: 3px 20px;
+    height: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav-bar li:nth-child(1) {
+    border: 1px solid rgb(0, 195, 255);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+
+.nav-bar li:nth-child(1) i {
+    color: rgb(0, 195, 255);
+}
+
+
+.nav-bar li:nth-child(1):hover {
+    margin-top: 15px;
+    transition: margin-top 500ms ease 0s;
+    box-shadow: none;
+}
+
+.nav-bar li:nth-child(2) {
+    border: 1px solid rgb(255, 166, 0);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar li:nth-child(2) i {
+    color: rgb(255, 166, 0);
+}
+
+.nav-bar li:nth-child(2):hover {
+    margin-top: 15px;
+    transition: margin-top 500ms ease 0s;
+    box-shadow: none;
+}
+
+.nav-bar li:nth-child(3) {
+    border: 1px solid rgb(0, 255, 98);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar li:nth-child(3) i {
+    color: rgb(0, 255, 98);
+}
+
+
+.nav-bar li:nth-child(3):hover {
+    margin-top: 15px;
+    transition: margin-top 500ms ease 0s;
+    box-shadow: none;
+}
+
+.nav-bar li:nth-child(4) {
+    border: 1px solid rgb(0, 119, 255);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar li:nth-child(4) i {
+    color: rgb(0, 119, 255);
+}
+
+
+.nav-bar li:nth-child(4):hover {
+    margin-top: 15px;
+    transition: margin-top 500ms ease 0s;
+    box-shadow: none;
+}
+
+.nav-bar li:nth-child(5) {
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar li:nth-child(5) i {
+    color: rgb(255, 0, 0);
+}
+
+.nav-bar li:nth-child(5):hover {
+    margin-top: 15px;
+    transition: margin-top 500ms ease 0s;
+    box-shadow: none;
+}
+
+.nav-bar li:nth-child(6) {
+    border: 1px solid rgb(180, 180, 180);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar li:nth-child(6) i {
+    color: rgb(180, 180, 180);
+}
+
+.nav-bar li:nth-child(6):hover {
+    margin-top: 15px;
+    transition: margin-top 500ms ease 0s;
+    box-shadow: none;
+}
+
+.nav-bar input {
+    width: 40%;
+    height: 30px;
+    margin: auto 0;
+    border-radius: 10px;
+}
+
+.nav-bar i {
+    font-size: 15px;
+    margin: auto 0;
+    margin-right: 5px;
+}
+
+.nav-bar span {
+    /* width: 100%; */
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto 15px;
+}
+
+.nav-bar span i {
+    padding: 4px;
+    font-size: 15px;
+}
+
+.nav-bar span button {
+    border: none;
+    background-color: #fff;
+}
+
+#search {
+    width: 73%;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent {
+    width: 24%;
+    padding: 1em;
+    border-top: 5px solid rgb(231, 231, 231);
+    border-right: 5px solid rgb(231, 231, 231);
+    border-radius: 0 20px 0 0;
+}
+
+.recent h3,
+.bookshelf h3 {
+    color: rgb(168, 168, 168);
+    border-bottom: 1px solid rgb(168, 168, 168);
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+}
+
+.recent ul {
+    padding-left: 1em;
+}
+
+.recent ul li {
+    list-style: none;
+    margin: .5em auto;
+    font-family: 'Noto Serif JP', serif;
+
+}
+
+.bookshelf {
+    width: 73%;
+    min-height: 460px;
+    padding: 1em;
+    margin: auto 1em;
+    text-align: left;
+    box-shadow: -5px -5px 10px rgb(168, 167, 167);
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* lETTER.php */
+.letter {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    background-color: lightyellow;
+}
+
+.letter span {
+    display: flex;
+    margin: .5em 1em 0;
+    font-family: 'Abel', sans-serif;
+}
+
+.subject {
+    font-size: 22px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.email,
+.username {
+    color: gray;
+}
+
+.message {
+    margin-top: 1em;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.control_btn {
+    text-align: right;
+    overflow: hidden;
+    clear: left;
+    padding: 10px;
+}
+
+.control_btn span {
+    float: left;
+}
+
+.control_btn button {
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+.control_btn button:nth-child(1) {
+    color: rgb(0, 68, 255);
+    box-shadow: 0 0 7px rgb(0, 68, 255);
+}
+
+
+.control_btn button:nth-child(2) {
+    color: rgb(255, 0, 0);
+    box-shadow: 0 0 7px rgb(255, 0, 0);
+}
+
+.control_btn button:nth-child(3) {
+    color: rgb(9, 255, 0);
+    box-shadow: 0 0 7px rgb(9, 255, 0);
+}
+
+.control_btn button:nth-child(4) {
+    color: rgb(0, 204, 255);
+    box-shadow: 0 0 7px rgb(0, 204, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOGIN.php */
+
+/* login */
+.wrap_log {
+    background: #fff url(./image/despaired-g927689f0c_1920.jpg) right bottom/cover no-repeat;
+    display: flex;
+    width: 100%;
+}
+
+.wrap_login {
+    width: 65%;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 214.5px 1em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrap_login span {
+    display: inline-flex;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+.wrap_login p {
+    font-size: 20px;
+}
+
+.form_login {
+    width: 35%;
+    display: inline-grid;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 128px 1em;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.form_login h1 {
+    text-align: center;
+    margin: 0.5em 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+.form_login label {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.form_login input {
+    font-size: 15px;
+    border: none;
+    background-color: antiquewhite;
+    padding: .5em;
+    border-radius: 3px;
+}
+
+#login {
+    border-radius: 3px;
+    margin: 2em 0;
+    padding: 5px 20px;
+    border: none;
+    background-color: #deb887;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#signup,
+#cancel {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(0, 4, 255);
+    padding: 5px;
+}
+
+
+
+
+/* signup */
+.wrap_sign {
+    background: #fff url(./image/pexels-dominika-roseclay-1036841.jpg) right bottom/cover no-repeat;
+    padding: 71px 5em;
+    position: relative;
+}
+
+#sign_one,
+#sign_two,
+#sign_three,
+#sign_four {
+    position: absolute;
+}
+
+#sign_one {
+    top: 30px;
+    left: 200px;
+    font-size: 65px;
+    transform: rotate(351deg)
+}
+
+#sign_two {
+    top: 290px;
+    left: 230px;
+    font-size: 90px;
+    transform: rotate(342deg);
+}
+
+#sign_three {
+    top: 20px;
+    left: 490px;
+    font-size: 30px;
+    transform: rotate(370deg);
+    color: white;
+}
+
+#sign_four {
+    bottom: 70px;
+    left: 315px;
+    font-size: 29px;
+    transform: rotate(373deg);
+    color: white;
+}
+
+
+.wrap_signup {
+    margin: 1em auto;
+    text-align: center;
+}
+
+.wrap_signup span {
+    padding: 10px;
+    font-size: 60px;
+    background-color: rgb(204, 199, 199);
+    border-radius: 5px;
+}
+
+.wrap_signup span i {
+    font-size: 50px;
+
+}
+
+.form_signup {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-left: 30em;
+    margin-right: 11em;
+    margin: 0 11em -8px 30em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.form_signup h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: 'Fredoka One', cursive;
+}
+
+.form_signup label {
+    margin: 10px 0;
+}
+
+.form_signup input {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#create {
+    margin: 2em 0;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 68, 255);
+    color: #fff;
+    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CREATE.php */
+.send_header {
+    display: flex;
+    justify-content: center;
+}
+
+.send_header h1 {
+    align-self: center;
+    font-size: 40px;
+}
+
+.send_header img {
+    width: 145px;
+}
+
+.send_letter {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.send_letter label {
+    font-size: 18px;
+}
+
+.send_letter input,
+.send_letter textarea {
+    border: none;
+    background-color: rgba(240, 240, 240, .5);
+    border-radius: 20px;
+    box-shadow: -1px 1px 3px darkgrey;
+    margin: 5px 0 10px;
+    padding: 5px 10px;
+}
+
+
+.send_letter span input {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.send_letter button {
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.send_letter button:nth-child(1) {
+    background-color: rgb(0, 255, 0);
+}
+
+.send_letter button:nth-child(2) {
+    background-color: red;
+}
