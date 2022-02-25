@@ -1,7 +1,7 @@
 <?php
     
     //connect database
-    $connection = mysqli_connect("localhost", "root", "", "dbs_email_sender");
+    $connection = mysqli_connect("localhost", "********", "**********", "dbs_email_sender");
 
     //ambil data
     function query($query){
